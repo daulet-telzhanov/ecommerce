@@ -54,6 +54,7 @@
                 "unnamedComponents": "arrow-function"
             }
         ],
-        "arrow-body-style": ["error", "as-needed"]
+        "arrow-body-style": ["error", "as-needed"],
+        "linebreak-style": 0
     }
 }
