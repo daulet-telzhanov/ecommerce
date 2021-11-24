@@ -31,9 +31,8 @@
     }
   },
   "lint-staged": {
-    "./**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write",
-      "npm lint",
+    "./**/*.{js,jsx,ts,tsx}": [
+      "npm run lint",
       "git add"
     ]
   },
@@ -59,7 +58,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "husky": "^7.0.4",
+    "husky": "^4.3.8",
     "lint-staged": "^12.1.2"
   }
 }

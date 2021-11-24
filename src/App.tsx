@@ -4,9 +4,6 @@ import './App.scss';
 const App: FC = () => {
     const timer = 0;
 
-
-
-
     return (
         <div className="app">
             {timer}
