@@ -18,7 +18,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set REACT_APP_MODE=default && react-scripts start",
+    "start-test": "set REACT_APP_MODE=testing && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
