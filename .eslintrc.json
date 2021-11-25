@@ -34,6 +34,7 @@
             "ignoreComments": true
         }],
         "react/jsx-indent": ["error", 4, {"checkAttributes": true, "indentLogicalExpressions": true}],
+        "react/jsx-indent-props": ["error", 4],
         "no-plusplus": "off",
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": ["error"],
