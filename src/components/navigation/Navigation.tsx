@@ -2,7 +2,7 @@ import React from 'react';
 import SelectForm from '../fields/select/Select';
 
 const Navigation = () => (
-    <div>
+    <header>
         <SelectForm
             options={[
                 {
@@ -11,7 +11,7 @@ const Navigation = () => (
                 },
             ]}
         />
-    </div>
+    </header>
 );
 
 export default Navigation;
